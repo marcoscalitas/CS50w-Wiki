@@ -94,7 +94,7 @@ The project includes two approaches for rendering the 404 error page:
 - `middleware/` - Directory containing the custom middleware for displaying the 404 error page.
 - `static/` - Directory for static files such as CSS, JavaScript, and images.
 - `templates/` - Contains the HTML templates used to render the encyclopedia pages.
-- `forms.py` - Contains the forms used to create, edit, and search entries.as entradas.
+- `forms.py` - Contains the forms used to create and edit  entries.
 - `urls.py` - Defines the application's routes and maps URLs to corresponding views.
 - `util.py` - Utility file with helper functions.
 - `views.py` - Contains the views responsible for processing requests and rendering the appropriate pages.
