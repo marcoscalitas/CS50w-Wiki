@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.main {
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 27px;
+}
+
+textarea {
+    height: 40vh;
+    width: 80%;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.sidebar-title {
+    margin-top: 5px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.form-required-field {
+    color: #ff0000;
+}
+
+.btn-margin {
+    margin-top: 12px;
+}
+
+.edit_form label[for="id_title"] {
+    display: none;
+}

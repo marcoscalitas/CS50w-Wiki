@@ -1,0 +1,22 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+    <h1>Search results for "{{ query }}"</h1>
+
+    {% if entries %}
+        <ul>
+            {% for entry in entries %}
+                <li><a href="{% url "encyclopedia:entry" entry %}">{{ entry }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <div class="alert alert-warning overflow-auto overflow-hidden" role="alert">
+            <strong>No results found</strong><br>
+            We couldn't find any entries that match your search. Try adjusting your search criteria and try again.
+        </div>
+    {% endif %}
+{% endblock %}
