@@ -45,6 +45,6 @@ label {
     margin-top: 12px;
 }
 
-.edit_form label[for="id_title"] {
+.edit_form label[for="id_title"], .edit_form input[id="id_title"] {
     display: none;
 }

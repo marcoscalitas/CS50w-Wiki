@@ -3,7 +3,7 @@
 {% block body %}
 <h1>Editing {{ title }}</h1>
 
-<form action="{% url 'encyclopedia:edit' title %}" method="post" class="needs-validation edit_form" novalidate>
+<form action="{% url 'encyclopedia:edit' title %}" method="post" class="edit-form needs-validation edit_form" novalidate>
     {% csrf_token %}
     <div class="col-12">
         {% if form.non_field_errors %}
