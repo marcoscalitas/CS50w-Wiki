@@ -3,7 +3,7 @@
 This is the **"Wiki"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project is an online encyclopedia similar to Wikipedia, where users can view, create, edit, and search entries using Markdown.
 
 ## Index
-- [Harvard University: CS50 Web Project 1 - Wiki](#harvard-university-cs50-web-project-1---wiki)
+- [Harvard University: CS50's Web Project 1 - Wiki](#harvard-university-cs50s-web-project-1---wiki)
   - [Index](#index)
   - [Features](#features)
     - [404 Error Page Setup](#404-error-page-setup)
@@ -14,19 +14,19 @@ This is the **"Wiki"** project, developed as part of the CS50's Web Programming 
 
 ## Features
 - **Home Page:** Lists all encyclopedia entries and allows navigation to any of them.  
-  ![Home Page](./assets/img/all-pages.png)
+  ![Home Page](./encyclopedia/static/encyclopedia/img/all-pages.png)
 
 - **Entry Page:** Displays the content of a specific encyclopedia entry.  
-  ![Entry Page](./assets/img/entry-page.png)
+  ![Entry Page](./encyclopedia/static/encyclopedia/img/entry-page.png)
 
 - **Search:** Facilitates searching for entries, returning relevant results.  
-  ![Search](./assets/img/search.png)
+  ![Search](./encyclopedia/static/encyclopedia/img/search.png)
 
 - **New Page:** Allows the creation of new entries, provided that the title of the new entry does not already exist.  
-  ![New Page](./assets/img/new-page.png)
+  ![New Page](./encyclopedia/static/encyclopedia/img/new-page.png)
 
 - **Edit Page:** Provides the option to edit the content of any existing entry.  
-  ![Edit Page](./assets/img/edit-page.png)
+  ![Edit Page](./encyclopedia/static/encyclopedia/img/edit-page.png)
 
 - **Random Page:** Redirects the user to a random entry in the encyclopedia.
 
@@ -38,7 +38,7 @@ The project includes two approaches for rendering the 404 error page:
 - **Custom Middleware:** A custom middleware displays a 404 error page when the debug mode is enabled.
 
 - **Production Setup:** When the project is deployed to a production server and the debug mode is disabled, Django uses its default configuration to display a 404 error page.  
-  ![404 Error](./assets/img/404.png)
+  ![404 Error](./encyclopedia/static/encyclopedia/img/404.png)
 
 ## Requirements
 - Python 3.12.5
