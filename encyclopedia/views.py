@@ -47,8 +47,8 @@ def handle_form_submission(request, template, context=None, is_edit=False):
         util.save_entry(title, content)
         return redirect_to_entry_page(title)
 
-    except UnicodeDecodeError:
-        error_message = "Something went wrong while processing the content. Please check that the text is in the correct format and try again."
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        error_message = "Something went wrong while processing the content. Please ensure that the text is in the correct format and does not contain unsupported characters."
         return handle_form_errors(request, form, error_message, template, context)
 
 
@@ -101,8 +101,13 @@ def edit_entry(request, title):
         raise Http404()
 
     if request.method != "POST":
-        return render_page(request, "edit", {
-                "form": forms.EntryForm(initial={"title": title, "content": content}, hidden_title=True),
+        return render_page(
+            request,
+            "edit",
+            {
+                "form": forms.EntryForm(
+                    initial={"title": title, "content": content}, hidden_title=True
+                ),
                 "title": title,
             },
         )
