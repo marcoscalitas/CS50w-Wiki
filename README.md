@@ -1,16 +1,16 @@
 # Harvard University: CS50's Web Project 1 - Wiki
 
-This is the **"Wiki"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project is an online encyclopedia similar to Wikipedia, where users can view, create, edit, and search entries using Markdown.
-
-## Index
 - [Harvard University: CS50's Web Project 1 - Wiki](#harvard-university-cs50s-web-project-1---wiki)
-  - [Index](#index)
+  - [Overview](#overview)
   - [Features](#features)
     - [404 Error Page Setup](#404-error-page-setup)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Technologies](#technologies)
   - [Project Structure](#project-structure)
+
+## Overview
+This is the **"Wiki"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project is an online encyclopedia similar to Wikipedia, where users can view, create, edit, and search entries using Markdown.
 
 ## Features
 - **Home Page:** Lists all encyclopedia entries and allows navigation to any of them.  
