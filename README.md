@@ -1,4 +1,4 @@
-# Harvard University: CS50's Web Project 1 - Wiki
+# CS50's Web Project 1 - Wiki
 
 - [Harvard University: CS50's Web Project 1 - Wiki](#harvard-university-cs50s-web-project-1---wiki)
   - [Overview](#overview)
