@@ -81,7 +81,7 @@ def search(request):
         return redirect_to_entry_page(entries_dict[lowercase_query])
 
     matching_entries = util.find_matching_entries(entries, lowercase_query)
-    return render_page(request, "search", {"entries": matching_entries, "query": query})
+    return render_page(request, "search", {"entries": matching_entries, "current_query": query})
 
 
 @require_http_methods(["GET", "POST"])
