@@ -4,9 +4,9 @@
   - [Overview](#overview)
   - [Features](#features)
     - [404 Error Page Setup](#404-error-page-setup)
+  - [Technologies](#technologies)
   - [Requirements](#requirements)
   - [Installation](#installation)
-  - [Technologies](#technologies)
   - [Project Structure](#project-structure)
 
 ## Overview
@@ -40,6 +40,25 @@ The project includes two approaches for rendering the 404 error page:
 - **Production Setup:** When the project is deployed to a production server and the debug mode is disabled, Django uses its default configuration to display a 404 error page.  
   ![404 Error](./encyclopedia/static/encyclopedia/img/404.png)
 
+## Technologies
+- **Front-end:** 
+  - HTML 
+  - CSS
+  - Bootstrap
+  - JavaScript
+
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Html" aline="center">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Html" aline="center">
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Html" aline="center">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Html" aline="center">
+
+- **Back-end:**
+  - Python
+  - Django
+
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+
 ## Requirements
 - Python 3.12.5
 - pip 24.2
@@ -69,25 +88,6 @@ The project includes two approaches for rendering the 404 error page:
    ```
 
 5. Access the application in your browser at  `http://127.0.0.1:8000/`.
-
-## Technologies
-- **Front-end:** 
-  - HTML 
-  - CSS
-  - Bootstrap
-  - JavaScript
-
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Html" aline="center">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Html" aline="center">
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Html" aline="center">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Html" aline="center">
-
-- **Back-end:**
-  - Python
-  - Django
-
-<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
 
 ## Project Structure
 - `encyclopedia/` - Main Django application containing all the encyclopedia functionalities.
