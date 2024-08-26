@@ -1,0 +1,5 @@
+#React 
+
+React is a JavaScript library for building user interfaces (UIs) on the web. React is a declarative, component based library that allows developers to build reusable UI components and It follows the Virtual DOM (Document Object Model) approach, which optimizes rendering performance by minimizing DOM updates. React is fast and works well with other tools and libraries.
+
+React is Developed by Facebook, React is a powerful JavaScript library used for building user interfaces, particularly for single-page applications. It allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. In this article, we will see what React is, exploring its history, core concepts, advantages, and practical uses.
