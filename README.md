@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2e36f5b3-92be-49d2-82d4-a1ec086c90c6)# CS50's Web Project 1 - Wiki
+# CS50's Web Project 1 - Wiki
 
 - [Harvard University: CS50's Web Project 1 - Wiki](#harvard-university-cs50s-web-project-1---wiki)
   - [Overview](#overview)
