@@ -1,4 +1,4 @@
-# CS50's Web Project 1 - Wiki
+![image](https://github.com/user-attachments/assets/2e36f5b3-92be-49d2-82d4-a1ec086c90c6)# CS50's Web Project 1 - Wiki
 
 - [Harvard University: CS50's Web Project 1 - Wiki](#harvard-university-cs50s-web-project-1---wiki)
   - [Overview](#overview)
@@ -47,17 +47,21 @@ The project includes two approaches for rendering the 404 error page:
   - Bootstrap
   - JavaScript
 
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Html" aline="center">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Html" aline="center">
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Html" aline="center">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Html" aline="center">
+<div style="display:flex; align-item:center; gap:12px;"> 
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Html" aline="center">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Html" aline="center">
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Html" aline="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Html" aline="center">
+</div>
 
 - **Back-end:**
   - Python
   - Django
 
-<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+<div style="display:flex; align-item:center; gap:12px;"> 
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+</div>
 
 ## Requirements
 - Python 3.12.5
