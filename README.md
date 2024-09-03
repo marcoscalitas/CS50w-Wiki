@@ -43,7 +43,7 @@ The project includes two approaches for rendering the 404 error page:
 
 ## Demo
 ```
-https://cs50w-wiki.onrender.com/
+<a href="https://cs50w-wiki.onrender.com/" style="color: blue;" target="_blank">https://cs50w-wiki.onrender.com/</a>
 ```
 
 ## Technologies
