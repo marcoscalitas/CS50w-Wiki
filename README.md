@@ -42,9 +42,7 @@ The project includes two approaches for rendering the 404 error page:
   ![404 Error](./encyclopedia/static/encyclopedia/img/404.png)
 
 ## Demo
-```
-<a href="https://cs50w-wiki.onrender.com/" style="color: blue;" target="_blank">https://cs50w-wiki.onrender.com/</a>
-```
+<a href="https://cs50w-wiki.onrender.com/" target="_blank">https://cs50w-wiki.onrender.com/</a>
 
 ## Technologies
 - **Front-end:** 
