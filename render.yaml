@@ -4,7 +4,7 @@ services:
     name: wiki
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "python -m gunicorn wiki.wsgi:application"
+    startCommand: "gunicorn wiki.wsgi:application"
     envVars:
       - key: SECRET_KEY
         generateValue: true
