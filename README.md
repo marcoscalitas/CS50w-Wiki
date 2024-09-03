@@ -1,9 +1,10 @@
 # CS50's Web Project 1 - Wiki
 
-- [Harvard University: CS50's Web Project 1 - Wiki](#harvard-university-cs50s-web-project-1---wiki)
+- [CS50's Web Project 1 - Wiki](#cs50s-web-project-1---wiki)
   - [Overview](#overview)
   - [Features](#features)
     - [404 Error Page Setup](#404-error-page-setup)
+  - [Demo](#demo)
   - [Technologies](#technologies)
   - [Requirements](#requirements)
   - [Installation](#installation)
@@ -39,6 +40,11 @@ The project includes two approaches for rendering the 404 error page:
 
 - **Production Setup:** When the project is deployed to a production server and the debug mode is disabled, Django uses its default configuration to display a 404 error page.  
   ![404 Error](./encyclopedia/static/encyclopedia/img/404.png)
+
+## Demo
+```
+https://cs50w-wiki.onrender.com/
+```
 
 ## Technologies
 - **Front-end:** 
