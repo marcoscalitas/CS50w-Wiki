@@ -27,7 +27,7 @@ SECRET_KEY = SECRET_KEY = os.getenv(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://cs50w-wiki-production.up.railway.app"]
 
 
 # Application definition
