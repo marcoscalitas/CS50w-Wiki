@@ -13,6 +13,9 @@
 ## Overview
 This is the **"Wiki"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project is an online encyclopedia similar to Wikipedia, where users can view, create, edit, and search entries using Markdown.
 
+## Demo
+<a href="https://cs50w-wiki.onrender.com/" target="_blank">https://cs50w-wiki.onrender.com/</a>
+
 ## Features
 - **Home Page:** Lists all encyclopedia entries and allows navigation to any of them.  
   ![Home Page](./encyclopedia/static/encyclopedia/img/all-pages.png)
@@ -40,9 +43,6 @@ The project includes two approaches for rendering the 404 error page:
 
 - **Production Setup:** When the project is deployed to a production server and the debug mode is disabled, Django uses its default configuration to display a 404 error page.  
   ![404 Error](./encyclopedia/static/encyclopedia/img/404.png)
-
-## Demo
-<a href="https://cs50w-wiki.onrender.com/" target="_blank">https://cs50w-wiki.onrender.com/</a>
 
 ## Technologies
 - **Front-end:** 
